@@ -116,7 +116,7 @@ const Cart = () => {
                     </div>
 
                     <button
-                        onClick={handleCheckout}
+                        onClick={handleCheckout as any}
                         className="w-full py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-500 transition duration-200"
                     >
                         Proceed to Payment
